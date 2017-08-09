@@ -48,6 +48,7 @@
     nginx:       ['nginx'],
     objectivec:  ['m', 'mm'],
     ocaml:       ['ml'],
+    pddl:        ['pddl'],
     perl:        ['pl', 'pm', 'perl'],
     php:         ['php', 'phtml', 'phps'],
     powershell:  ['ps1', 'psm1'],
@@ -74,9 +75,9 @@
   const BROWSER_CONTENT = ['htm', 'html', 'xml', 'xhtml', 'shtml'];
 
   const OPTIONS_DEFAULTS = {
-    theme: 'sunburst',
-    font: 'Inconsolata',
-    fontSize: 'medium',
+    theme: 'monokai',
+    font: 'DejaVuSansMono',
+    fontSize: 'x-small',
     lineNumbers: true
   };
 
